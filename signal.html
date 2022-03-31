@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultra-B</title>
+    <link rel="stylesheet" href="sing.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"> 
+</head>
+<body>
+    <div>
+        <img src="news/photo_2022-03-29_09-36-27.jpg" alt="">
+    </div>
+    <section id="product">
+        <div class="sproductimg">
+            <img src="news/Lipstick/L9.png" id="MainImg" alt="">
+            <div class="small-img-gp">
+                <div class="small-img-col">
+                    <img src="news/Lipstick/L21.png" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="news/Lipstick/L22.png" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="news/Lipstick/L23.png" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="news/Lipstick/L24.png" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="sproductdet">
+            <h2>THE MIX BY SU</h2>
+            <p>SUPERSTAY</p>
+            <h3>MMK 7000</h3>
+            <select>
+                <option>Select Scrub</option>
+                <option>Coffee</option>
+                <option>Cottion Candy</option>
+                <option>Barking Soda</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">ADD TO CART</button>
+            <a href="wishlist.html"><i class="uil uil-heart"></i>
+                <span>ADD TO WISHES</span>
+            </a>
+            <h5>CATEGORIES: HAIR & BODY</h5>
+            <h4>Product Details</h4>
+            <p>An ink lipstick matte, long-wearing.The intense pigment and 
+                a comfortable fit for 16 hours.
+                The color remains intense and without transfer.You'll love ...
+            </p>
+        </div>
+    </section>
+
+
+
+    <script>
+        var MainImg=document.getElementById("MainImg");
+        var smalling=document.getElementsByClassName("small-img");
+        smalling[0].onclick=function(){
+            MainImg.src=smalling[0].src;
+        }
+        smalling[1].onclick=function(){
+            MainImg.src=smalling[1].src;
+        }
+        smalling[2].onclick=function(){
+            MainImg.src=smalling[2].src;
+        }
+        smalling[3].onclick=function(){
+            MainImg.src=smalling[3].src;
+        }
+    </script>
+    
+   
+</body>
+</html>
